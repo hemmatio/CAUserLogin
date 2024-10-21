@@ -66,7 +66,8 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     /**
-     * @param name
+     * Set the current user.
+     * @param name the name of the user to set as the current user
      */
     @Override
     public void setCurrentUser(String name) {
@@ -74,7 +75,8 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     /**
-     * @return
+     * Get the current user.
+     * @return the current user
      */
     @Override
     public String getCurrentUser() {
